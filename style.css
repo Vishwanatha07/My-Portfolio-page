@@ -1,0 +1,165 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    width: 100%;
+    background: url("back.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.navbar {
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo {
+    height: 120px;
+    width: 160px;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-left: -2%;
+    cursor: pointer;
+    transition: width 1s ease-in;
+}
+
+.navbar .logo:hover {
+    width: 200px;
+}
+
+ul {
+    margin: -4%;
+}
+
+ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 16px;
+}
+
+ul li a {
+    font-size: 16px;
+    font-weight: bold;
+    color: darkslategray;
+    margin: -3%;
+    text-decoration: none;
+    transition: color 0.5s ease-in;
+}
+
+ul li a:hover {
+    color: orange;
+}
+
+.info {
+    margin-top: 6%;
+    margin-left: 7%;
+}
+
+.info h3 {
+    font-size: 16px;
+    color: chocolate;
+    line-height: 24px;
+    letter-spacing: 1px;
+}
+
+.info h2 {
+    font-size: 18px;
+}
+
+.info h2 span {
+    color: lightseagreen;
+}
+
+.info h1 {
+    font-size: 50px;
+    color: yellowgreen;
+}
+
+.info h1 span {
+    color: orange;
+}
+
+.info a {
+    text-decoration: none;
+    color: #fff;
+    background: rgb(36, 32, 30);
+    margin: 26px 0;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: 1s ease-in;
+}
+
+.info a:hover {
+    background: rgb(50, 40, 150);
+}
+
+.image {
+    width: 30%;
+    height: 60%;
+    position: absolute;
+    right: 100px;
+    bottom: 20px;
+}
+
+.image img {
+    position: absolute;
+    height: 100%;
+    left: 25%;
+    transform: translate(-50%);
+    bottom: 90px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: left 5s linear;
+}
+
+
+.image img:hover{
+    left: 50%;
+}
+
+.icons a {
+    text-decoration: none;
+    color: #000;
+}
+
+.icons ion-icon {
+    margin-left: 7%;
+    margin-right: -60px;
+    margin-top: 15px;
+    color: #000;
+    font-size: 40px;
+}
+
+.icons ion-icon:hover {
+    color: #800070;
+}
+
+.contact{
+    color: crimson;
+    display: flex;
+    padding-left: 20px;
+}
+.contact b{
+    color: magenta;
+    font-size: 1rem;
+}
+
+#cont{
+    padding-top: 10px;
+    color: #a255f0;
+    font-size: 1.5rem;
+    font-weight: 550;
+}
+
+
+
